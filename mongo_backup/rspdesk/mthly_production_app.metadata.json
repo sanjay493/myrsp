@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"afa50b6a7a6c449bb2c940bbf9922360","collectionName":"mthly_production_app","type":"collection"}

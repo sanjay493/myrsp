@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/play
+content-type: application/json
+
+{
+   "units":["SP-1","SP-2"],
+    "startDate":"2024-12-20",
+    "endDate":"2024-12-25",
+    "comparison":["APP","ACT","OPP"]
+}
+

@@ -1,0 +1,102 @@
+{"_id":{"$oid":"6765668dd9465d3e9497c205"},"metric":"hcokeYield","description":"H/Coke Yield(+25mm)","measuringUnit":"T / Oven","unit":["OldCOB#1-5","NewCOB#6"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c206"},"metric":"dryCoalCharge","description":"Dry Coal Charge","measuringUnit":"T / Oven","unit":["OldCOB#1-5","NewCOB#6"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c207"},"metric":"importedCoalUsage","description":"Imported Coal Usage","measuringUnit":"%","unit":["OldCOB#1-5","NewCOB#6"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c208"},"metric":"cokeMicumminus10mm","description":"Coke Micum(-10mm)","measuringUnit":"%","unit":["OldCOB#1-5","NewCOB#6"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c209"},"metric":"coaltoHMRatio","description":"Coal to H M Ratio","measuringUnit":"Number","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c20a"},"metric":"cokeScreenLoss","description":"coke screen loss","measuringUnit":"%","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c20b"},"metric":"feoInSinter","description":"FeO in Sinter","measuringUnit":"%","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c20c"},"metric":"feInSinter","description":"Fe in Sinter","measuringUnit":"%","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c20d"},"metric":"caoInSinter","description":"CaO in Sinter","measuringUnit":"%","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c20e"},"metric":"basicityCaoToSio2","description":"Basicity  (CaO/ SiO2)","measuringUnit":"Number","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c20f"},"metric":"spProductivity","description":"Specific productivity","measuringUnit":"T/m2/Hr","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c210"},"metric":"ironOreFinesConsumption","description":"Iron Ore Fines Cons.","measuringUnit":"Kg / T","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c211"},"metric":"limestoneConsumption","description":"Limestone Cons.","measuringUnit":"Kg / T","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c212"},"metric":"dolomiteConsumption","description":"Dolomite Cons.","measuringUnit":"Kg / T","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c213"},"metric":"millscaleConsumption","description":"Millscale Cons.","measuringUnit":"Kg / T","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c214"},"metric":"ldSlagConsumption","description":"LD Slag Cons.","measuringUnit":"Kg / T","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c215"},"metric":"sinterDustConsumption","description":"Sinter Dust Cons.","measuringUnit":"Kg / T","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c216"},"metric":"cokeBreezeConsumption","description":"Coke Breeze Cons","measuringUnit":"Kg / T","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c217"},"metric":"calcinedLime","description":"calcined lime","measuringUnit":"Kg / T","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c218"},"metric":"tumblerIndex","description":"Tumbler Index","measuringUnit":"Number","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c219"},"metric":"plantReturnFines","description":"Plant Return Fines","measuringUnit":"%","unit":["SP-1","SP-2","SP-3"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c21a"},"metric":"converterAvailability","description":"Converter Avail. % on","measuringUnit":" Cal Time","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c21b"},"metric":"converterUtilisation","description":"Conv.Utilisation% on","measuringUnit":"Avail. Time","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c21c"},"metric":"metalicInputHMScrapIronore","description":"Met.Input (HM+scrap+iron ore)","measuringUnit":"Kg /Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c21d"},"metric":"hotMetalConsumption","description":"Hot Metal Cons.","measuringUnit":"Kg /Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c21e"},"metric":"scrapConsumption","description":"Scrap Consumption","measuringUnit":"Kg /Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c21f"},"metric":"burntLimeConsumption","description":"Burnt Lime Cons.","measuringUnit":"Kg /Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c220"},"metric":"calcinedDoloConsumption","description":"Calcined Dolo cons.","measuringUnit":"Kg /Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c221"},"metric":"rawDoloConsumption","description":"Raw Dolo cons.","measuringUnit":"Kg /Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c222"},"metric":"ferroMnConsumptionInConverter","description":"Ferro- Mn Consmn LC","measuringUnit":"Kg / Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c223"},"metric":"ferroSiliconConsumption","description":"Ferro Silicon Consmn","measuringUnit":"Kg / Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c224"},"metric":"silicoMnConsumption","description":"Silico -Mn Cons.","measuringUnit":"Kg / Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c225"},"metric":"aluminiumConsumption","description":"Aluminium Consmn","measuringUnit":"Kg / Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c226"},"metric":"refractoryConsumption","description":"Refractory Cons.","measuringUnit":"Kg / Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c227"},"metric":"mettalicYield","description":"Mettalic Yield    ","measuringUnit":"%","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c228"},"metric":"blowWeight","description":"Blow Weight ","measuringUnit":"Tons / Blow","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c229"},"metric":"oxygenConsumptionInConverter","description":"Oxygen Consmn.(LD)","measuringUnit":"Nm3 /Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c22a"},"metric":"oxygenConsumptionInCCM","description":"Oxygen Cons.(CCM I)","measuringUnit":"Nm3 /Tonne","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c22b"},"metric":"hpN2Consumption","description":"HP N2 Consmn.","measuringUnit":"Nm3 /Blow","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c22c"},"metric":"converterYield","description":"Converter Yield","measuringUnit":"%","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c22d"},"metric":"casterYield","description":"Caster Yield","measuringUnit":"%","unit":["SMS-1","SMS-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c22e"},"metric":"hotMetaltoSlabRatio","description":"Hot Metal to Slab Ratio","measuringUnit":"Number","unit":["SMS-1","SMS-2","General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c22f"},"metric":"7and8mmProduction","description":"7 & 8 mm production","measuringUnit":"Tons","unit":["PM","NPM"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c230"},"metric":"22mmaboveProduction","description":"22 mm & above Prouction.","measuringUnit":"Tons","unit":["PM","NPM"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c231"},"metric":"normalizedRolledPlates","description":"Normalized Rolled Plates","measuringUnit":"Tons","unit":["PM","NPM"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c232"},"metric":"yieldPrimes","description":"Yield - Primes","measuringUnit":"%","unit":["PM","NPM"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c233"},"metric":"yieldTotal","description":"Yield - Total","measuringUnit":"%","unit":["PM","NPM"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c234"},"metric":"averageSlabWeight","description":"Average Slab Weight","measuringUnit":"Tons","unit":["PM","NPM","HSM-1","HSM-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c235"},"metric":"millAvailability","description":"Mill Availability","measuringUnit":"%","unit":["PM","NPM","HSM-1","HSM-2","SWP","ERWP"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c236"},"metric":"utilizationonAvailableTime","description":"Utilization on Available Time","measuringUnit":"%","unit":["PM","NPM","HSM-1","HSM-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c237"},"metric":"rollingRate","description":"Rolling Rate","measuringUnit":"T/Hr.","unit":["PM","NPM","HSM-1","HSM-2","SWP","ERWP","CRNO"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c238"},"metric":"normalisingProduction","description":"Normalising  Production","measuringUnit":"Tons","unit":["NPM"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c239"},"metric":"slabCobbled","description":"Slab Cobbled","measuringUnit":"%","unit":["HSM-1","HSM-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c23c"},"metric":"RHFurnaceAvailabilityAverage","description":"R.H.Fce Avail-Average","measuringUnit":"Nos./Day","unit":["HSM-1","HSM-2"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c23d"},"metric":"rejection","description":"Rejection","measuringUnit":"%","unit":["SWP","ERWP"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c23f"},"metric":"apiAcceptance","description":"API Acceptance","measuringUnit":"%","unit":["ERWP","SWP"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c241"},"metric":"acidConsumptionInAPline","description":"Acid consumption in AP line","measuringUnit":"Kg/T","unit":["CRNO"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c242"},"metric":"energyConsumption","description":"Energy consumption. ","measuringUnit":"G.Cal/TCS","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c243"},"metric":"hmToSlabRatio","description":"H M to Slab Ratio-Total","measuringUnit":"Number","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c244"},"metric":"furnaceOilConsumption","description":"Fce Oil Cons.-Total","measuringUnit":"KL","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c245"},"metric":"makeUpWaterConsumption","description":"Make-Up Water Cons.","measuringUnit":"M3/ TCS","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c246"},"metric":"makeUpWaterConsumption","description":"Make-Up Water Cons.","measuringUnit":"M3/ TSS","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c247"},"metric":"ldGasRecoveredInSMS-II","description":"LD Gas Recv. - SMS-II","measuringUnit":"Nm3/ TCS","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c248"},"metric":"deSulphurisedHeats","description":"De Sulphurised. Heats","measuringUnit":"Nos.","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c249"},"metric":"spCO2Emmission ","description":"Sp. CO2 Emmission ","measuringUnit":"T/TCS","unit":["General"]}
+{"_id":{"$oid":"6765668dd9465d3e9497c24a"},"metric":"labourProductivity","description":"Labour Productivity","measuringUnit":"TCS/M/Yr","unit":["General"]}
+{"_id":{"$oid":"676c40891d81b827b111cd1a"},"metric":"productivity_WV","description":"Productivity(W.V)","measuringUnit":"T/m3/day","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd1b"},"metric":"AVPerc","description":"Availablity","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd1c"},"metric":"UtPerc","description":"Utilization","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd1d"},"metric":"cokeRate","description":"Coke Rake","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd1e"},"metric":"cdiRate","description":"CDI Rake","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd1f"},"metric":"nutCokeRate","description":"Nut Coke Rake","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd20"},"metric":"fuelRate","description":"Fuel Rake","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd21"},"metric":"carbonRate","description":"Carbon Rake","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd22"},"metric":"I/oRate_wet","description":"Iron Ore Lump Rate(wet)","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd23"},"metric":"I/oRate_dry","description":"Iron Ore Lump Rate(Dry)","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd24"},"metric":"sinterRate_wet","description":"Sinter Rate(Wet)","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd25"},"metric":"sinterRate_dry","description":"Sinter Rate(Dry)","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd26"},"metric":"pelletRate_wet","description":"Pellet Rate(Wet)","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd27"},"metric":"pelletRate_dry","description":"Pellet Rate(Dry)","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd28"},"metric":"IBRM_Rate_wet","description":"IBRM Rate(Wet)","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd29"},"metric":"IBRM_Rate_dry","description":"IBRM Rate(Dry)","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd2a"},"metric":"sinterPercinBurden_dry","description":"Sinter% in Burden(Dry)","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd2b"},"metric":"pelletPercinBurden_dry","description":"Pelletr% in Burden(Dry)","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd2c"},"metric":"fuelDustRecover","description":"Fuel Dust Recovery","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd2d"},"metric":"slagRate","description":"Slag Rate","measuringUnit":"Kg/THM","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd2e"},"metric":"windBlowPr","description":"Wind Blow Pressure","measuringUnit":"Kg/cm2","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd2f"},"metric":"avgHBT","description":"Average HBT","measuringUnit":"0C","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd30"},"metric":"steamRate","description":"Steam Rate","measuringUnit":"","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd31"},"metric":"oxygenEnrichmentPerc","description":"Oxygen Enrichment","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd32"},"metric":"topGasPressure","description":"Top Gas Pressure","measuringUnit":"Kg/cm2","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd33"},"metric":"hotMetalTempDegC","description":"Hot Metal Temprature","measuringUnit":"0C","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd34"},"metric":"siAvg","description":"Average Si","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd35"},"metric":"siMax","description":"Max Si","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd36"},"metric":"siMin","description":"Min Si","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd37"},"metric":"sAvg","description":"Average S","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd38"},"metric":"sMax","description":"Average S","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd39"},"metric":"sMin","description":"Average S","measuringUnit":"%","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"676c40891d81b827b111cd3a"},"metric":"windBlowing","description":"Wind Blowing","measuringUnit":"Nm3/hr","unit":["BF-1","BF-4","BF-5","BF-Shop"]}
+{"_id":{"$oid":"677bb63312b0178ea9047178"},"metric":"HRCoilYield","description":"Yield","measuringUnit":"%","unit":["HSM-1","HSM-2"]}
+{"_id":{"$oid":"677bb72e12b0178ea904717a"},"metric":"heatConsumption","description":"Heat Consumption","measuringUnit":"Mcal/T","unit":["HSM-1","HSM-2","PM","NPM"]}
+{"_id":{"$oid":"677bb75d12b0178ea904717c"},"metric":"powerConsumption","description":"Power Consumption","measuringUnit":"kWh/T","unit":["HSM-1","HSM-2","PM","NPM"]}

@@ -1,0 +1,14 @@
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=yearly_production --out=yearly_production_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=mthly_techno --out=mthly_techno_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=mthly_production_opp --out=mthly_production_opp_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=mthly_production_app --out=mthly_production_app_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=mthly_BlastFurnace --out=mthly_BlastFurnace_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=dly_prodn --out=dly_prodn_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=delay --out=delay_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=basic_BastFurnace --out=basic_BastFurnace_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=mthly_production --out=mthly_production_output.json
+mongoexport --uri="mongodb://127.0.0.1:27017/rspdesk" --collection=yrly_techno --out=yrly_techno_output.json
+
+
+mongodump --uri="mongodb://127.0.0.1:27017/rspdesk" --out=./mongo_backup
+mongorestore --uri="mongodb://127.0.0.1:27017" ./mongo_backup

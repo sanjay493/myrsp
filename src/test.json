@@ -1,0 +1,231 @@
+{
+    "_id": {
+      "$oid": "674abd0b520f8f3fb2d96d11"
+    },
+    "rpt_date": "2024-11-29",
+    "units": [
+      {
+        "name": "COB-1#5Pushg",
+        "ondt_prodn": 310,
+        "tilldt_prodn": 324
+      },
+      {
+        "name": "COB-6Pushg",
+        "ondt_prodn": 84,
+        "tilldt_prodn": 87
+      },
+      {
+        "name": "Eq_COBPushg",
+        "ondt_prodn": 472,
+        "tilldt_prodn": 492
+      },
+      {
+        "name": "SP-1",
+        "ondt_prodn": 0,
+        "mrate": 53703,
+        "ondt_productivity": 0,
+        "tilldt_productivity": 0.734,
+        "basicity": 0
+      },
+      {
+        "name": "SP-2",
+        "ondt_prodn": 3116,
+        "mrate": 141611,
+        "ondt_productivity": 1.217,
+        "tilldt_productivity": 1.327,
+        "basicity": 1.66
+      },
+      {
+        "name": "SP-3",
+        "ondt_prodn": 10110,
+        "mrate": 313281,
+        "ondt_productivity": 1.306,
+        "tilldt_productivity": 1.344,
+        "basicity": 1.68
+      },
+      {
+        "name": "BF-1",
+        "ondt_prodn": 2148,
+        "mrate": 75807.9310344828,
+        "ondt_productivity": 1.48,
+        "tilldt_productivity": 2,
+        "ondt_HBT": 866,
+        "ondt_cokerate": 467,
+        "tilldt_cokerate": 436,
+        "ondt_pci": 74.95,
+        "tilldt_pci": 93.07,
+        "ondt_sinter%": 71,
+        "tilldt_sinter%": 72,
+        "ondt_o2enrich": 1.71,
+        "tilldt_o2enrich": 3.19,
+        "ondt_nutcoke": 0,
+        "tilldt_nutcoke": 0,
+        "ondt_slagrate": 371,
+        "ondt_pellet%": 0,
+        "tilldt_pellet%": 13
+      },
+      {
+        "name": "BF-5",
+        "ondt_prodn": 6884,
+        "mrate": 250969.655172414,
+        "ondt_productivity": 1.94,
+        "tilldt_productivity": 2.42,
+        "ondt_HBT": 1078,
+        "ondt_cokerate": 374,
+        "tilldt_cokerate": 374,
+        "ondt_pci": 147.3,
+        "tilldt_pci": 150.84,
+        "ondt_sinter%": 73,
+        "tilldt_sinter%": 73,
+        "ondt_o2enrich": 3.6,
+        "tilldt_o2enrich": 6.81,
+        "ondt_nutcoke": 26.29,
+        "tilldt_nutcoke": 33.42,
+        "ondt_slagrate": 363,
+        "ondt_pellet%": 13,
+        "tilldt_pellet%": 18
+      },
+      {
+        "name": "BF-Shop",
+        "ondt_prodn": 9032,
+        "mrate": 326777.586206897,
+        "ondt_productivity": 1.8,
+        "tilldt_productivity": 2.31,
+        "ondt_HBT": 1027.58193091231,
+        "ondt_cokerate": 397,
+        "tilldt_cokerate": 390,
+        "ondt_pci": 130.09,
+        "tilldt_pci": 137.44,
+        "ondt_sinter%": 72,
+        "tilldt_sinter%": 73,
+        "ondt_o2enrich": 3.05,
+        "tilldt_o2enrich": 5.74,
+        "ondt_nutcoke": 20.04,
+        "tilldt_nutcoke": 25.67,
+        "ondt_slagrate": 364.902568644818,
+        "ondt_pellet%": 10,
+        "tilldt_pellet%": 17
+      },
+      {
+        "name": "SMS-1",
+        "ondt_prodn": 1627,
+        "mrate": 31607,
+        "ondt_pblow": 11,
+        "ondt_qblow": 13,
+        "convpblow_till": 380,
+        "convqblow_till": 64,
+        "cast_ondt": 24,
+        "sms1_tillcast": 444,
+        "ondthmpertcs": 1075,
+        "tillhmpertcs": 1077,
+        "ondsrppertcs": 55,
+        "tillsrppertcs": 52,
+        "convp_life": 665,
+        "convp_lastlife": 1696,
+        "convq_life": 64,
+        "convq_lastlife": 1947
+      },
+      {
+        "name": "SMS-2",
+        "ondt_prodn": 6919,
+        "mrate": 278498,
+        "ondt_ablow": 20,
+        "ondt_bblow": 24,
+        "ondt_cblow": 0,
+        "convablow_till": 590,
+        "convbblow_till": 595,
+        "convcblow_till": 516,
+        "cast_ondt": 44,
+        "sms2_tillcast": 1698,
+        "ondthmpertcs": 1018,
+        "tillhmpertcs": 1022,
+        "ondsrppertcs": 85,
+        "tillsrppertcs": 80,
+        "conva_life": 2660,
+        "conva_lastlife": 4255,
+        "convb_life": 4377,
+        "convb_lastlife": 4884,
+        "convc_life": 6257,
+        "convc_lastlife": 6961,
+        "caster3_ondtcast": 26,
+        "caster3_tillcast": 838,
+        "caster3_ondtpr": 4128,
+        "caster3_tillpr": 133489
+      },
+      {
+        "name": "PM",
+        "ondt_prodn": 1930,
+        "mrate": 34260,
+        "ondt_slab": 2051,
+        "mrate_slab": 36475,
+        "avg_slabwt": 5.53,
+        "ondesp": 1458,
+        "desprate": 33872,
+        "opstk": 15638,
+        "ondtstk": 16013
+      },
+      {
+        "name": "NPM",
+        "ondt_prodn": 2813,
+        "mrate": 79903,
+        "ondt_slab": 3156,
+        "mrate_slab": 89361,
+        "avg_slabwt": 11.43,
+        "ondesp": 3062,
+        "desprate": 77301,
+        "opstk": 31857,
+        "ondtstk": 34373
+      },
+      {
+        "name": "HSM-2",
+        "ondt_prodn": 0,
+        "mrate": 176717,
+        "ondt_slab": 0
+      },
+      {
+        "name": "HRC-2",
+        "ondt_prodn": 214,
+        "mrate": 21120,
+        "opstk": 35628,
+        "ondtstk": 9449,
+        "ondesp": 5342,
+        "desprate": 175499
+      },
+      {
+        "name": "HRP-2",
+        "ondt_prodn": 0,
+        "mrate": 148417,
+        "opstk": 2846,
+        "ondtstk": 1347,
+        "ondesp": 713,
+        "desprate": 22671
+      },
+      {
+        "name": "ERW",
+        "ondt_prodn": 0,
+        "mrate": 1945,
+        "opstk": 4826,
+        "ondtstk": 5294,
+        "ondesp": 91,
+        "desprate": 1461
+      },
+      {
+        "name": "SW",
+        "ondt_prodn": 0,
+        "mrate": 3472,
+        "opstk": 3606,
+        "ondtstk": 3045,
+        "ondesp": 140,
+        "desprate": 4052
+      },
+      {
+        "name": "CRNO",
+        "ondt_prodn": 226,
+        "mrate": 5224,
+        "opstk": 558,
+        "ondtstk": 628,
+        "ondesp": 73,
+        "desprate": 5152
+      }
+    ]
+  }
