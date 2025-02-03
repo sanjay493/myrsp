@@ -18,7 +18,7 @@ export async function POST(request) {
 
     // Parse and validate the request body
     const body = await request.json();
-    // console.log('Received Body:', body);
+    console.log('Received Body:', body);
 
     // Handle array structure in body
     const record = Array.isArray(body) ? body[0] : body; // Extract the first object if the body is an array
@@ -59,7 +59,43 @@ export async function POST(request) {
     const format = (date) => {
       return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
     };
+// //by adding daily prodn
+//     const cur_mth_prodn = await db.collection(collectionName).aggregate([
+//       { $match: { rpt_date: { $gte: format(startDate), $lte: format(endDate) } } },
+//       { $unwind: "$units" },
+//       {
+//         $group: {
+//           _id: {  mth: { $dateToString: { format: "%Y%m", date: { $dateFromString: { dateString: "$rpt_date" } } } },
+//           unit: "$units.name" },
+//           totalProdn: { $sum: "$units.ondt_prodn" },
+//           count: {
+//             $sum: {
+//               $cond: [
+//                 { $in: ["$units.name", ["Eq_COBPushg", "COB-1#5Pushg", "COB-6Pushg"]] },
+//                 1,
+//                 0
+//               ]
+//             }
+//           }
+//         }
+//       },
+//       {
+//         $addFields: {
+//           prodn: {
+//             $cond: [
+//               { $in: ["$_id.unit", ["Eq_COBPushg", "COB-1#5Pushg", "COB-6Pushg"]] },
+//               { $divide: ["$totalProdn", "$count"] },
+//               "$totalProdn"
+//             ]
+//           }
+//         }
+//       },
+//       { $project: { _id: 0, mth: "$_id.mth", unit: "$_id.unit", prodn: { $round: ["$prodn", 0] },count:"$count" } },
+//       { $sort: { mth: 1, unit: 1 } }
+//     ]).toArray();
+    
 
+//     console.log("Monthly Production:", cur_mth_prodn);
 let cur_mth_prodn1 = [];
 //by using mrate
 cur_mth_prodn1 = await db.collection(collectionName).aggregate([
@@ -77,7 +113,7 @@ cur_mth_prodn1 = await db.collection(collectionName).aggregate([
         $dateToString: { format: "%Y%m", date: { $dateFromString: { dateString: "$rpt_date" } } },
       },
       unit: "$units.name",
-      prodn: { $round: ["$units.mrate", 0] }
+      prodn: "$units.mrate",
     },
   },
   {
@@ -89,31 +125,17 @@ cur_mth_prodn1 = await db.collection(collectionName).aggregate([
     },
   },
   {
-    $match: { prodn: { $exists: true, $ne: null }, unit: { $nin: ["Eq_COBPushg", "BF-Shop"] } } 
+    $match: {
+      prodn: { $exists: true, $ne: null }, // Ensure mrate is present
+    },
   },
   {
     $sort: { mth: 1, unit: 1 }, // Sort by month and unit
   },
 ]).toArray();
 
+
 console.log("Monthly Production1:", cur_mth_prodn1);
-
-for (const doc of cur_mth_prodn1) {
-  const { mth, unit, prodn } = doc;
-  const updatedAt = new Date().toISOString().replace("T", " ").substring(0, 19);
-
-  const oldData = await db.collection(monthlyCollection).findOne({ mth, unit });
-  // console.log();
-
-  const updateResult = await db.collection(monthlyCollection).updateOne(
-    { mth, unit },
-    { $set: { prodn, updatedAt } },
-    { upsert: true }
-  );
-
-  const updatedData = await db.collection(monthlyCollection).findOne({ mth, unit });
-   console.log("Old Data:", oldData,"Updated Data:", updatedData);
-}
 
     // Respond with success and inserted ID
     return NextResponse.json({ success: true, insertedId: result.insertedId });

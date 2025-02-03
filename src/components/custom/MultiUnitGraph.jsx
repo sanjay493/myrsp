@@ -69,7 +69,7 @@ const MultiUnitGraph = ({ combinedDataForAllUnits, graphType }) => {
         }));
 
         return (
-          <Card key={unit} className="p-4 mb-6 bg-gray-100 shadow-md">
+          <Card key={unit} className="p-4 mb-4 shadow-md">
             <div style={{ height: "400px" }}>
               <h2 className="text-2xl font-bold mb-4 text-center text-gray-800">
                 {unit} Production Trends
@@ -77,7 +77,7 @@ const MultiUnitGraph = ({ combinedDataForAllUnits, graphType }) => {
               {graphType === "line" ? (
                 <ResponsiveLine
                   data={lineChartData}
-                  margin={{ top: 50, right: 130, bottom: 50, left: 100 }}
+                  margin={{ top: 50, right: 130, bottom: 70, left: 100 }}
                   xScale={{ type: "point" }}
                   yScale={{
                     type: "linear",
@@ -117,12 +117,12 @@ const MultiUnitGraph = ({ combinedDataForAllUnits, graphType }) => {
                   data={barChartData}
                   keys={["app", "actual"]}
                   indexBy="period"
-                  margin={{ top: 50, right: 130, bottom: 50, left: 100 }}
+                  margin={{ top: 50, right: 130, bottom: 70, left: 100 }}
                   padding={0.3}
                   groupMode="grouped"
                   valueScale={{ type: "linear" }}
                   indexScale={{ type: "band", round: true }}
-                  colors={{ scheme: "category10" }}
+                  colors={{ scheme: "pastel2" }}
                   axisTop={null}
                   axisRight={null}
                   axisBottom={{

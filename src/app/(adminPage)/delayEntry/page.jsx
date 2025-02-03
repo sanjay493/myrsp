@@ -154,7 +154,7 @@ const DelayManager = () => {
         </div>
 
         {/* Unit Field */}
-        <div className="mb-4">
+        {/* <div className="mb-4">
           <input
             type="text"
             placeholder="Unit"
@@ -163,7 +163,23 @@ const DelayManager = () => {
             onChange={(e) => setNewDelay({ ...newDelay, [e.target.name]: e.target.value })}
             className="border p-2 rounded w-full"
           />
-        </div>
+        </div> */}
+        <div className="mb-4">
+  <select
+    name="unit"
+    value={newDelay.unit || ""}
+    onChange={(e) => setNewDelay({ ...newDelay, [e.target.name]: e.target.value })}
+    className="border p-2 rounded w-full"
+  >
+    <option value="" disabled>Select Unit</option>
+    {[ "BF-1", "BF-5", "BPTG","COB-6","COB-1#5","HSM-2","NPM","PM","SMS-1", "SMS-1 caster-1","SMS-1 Converter-P","SMS-1 Converter-Q","SMS-2","SMS-2 Caster-1","SMS-2 Caster-2","SMS-2 Caster-3","SMS-2 Converter A","SMS-2 Converter B","SMS-2 Converter C","SP-1","SP-2","SP-3","STG-1","STG-2"].map((unit) => (
+      <option key={unit} value={unit}>
+        {unit}
+      </option>
+    ))}
+  </select>
+</div>
+
 
         {/* Remark Field */}
         <div className="mb-4">

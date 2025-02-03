@@ -9,12 +9,27 @@ import "react-datepicker/dist/react-datepicker.css";
 import * as XLSX from 'xlsx';
 
 function TechnoMetricsDashboard() {
+
+    const today = new Date();
+    
+    // Get yesterday's date
+    const yesterday = new Date();
+    yesterday.setDate(today.getDate() - 1);
+    const yyyymmYesterday = `${yesterday.getFullYear()}${String(yesterday.getMonth() + 1).padStart(2, '0')}`;
+    
+    // Get start of financial year (assuming April as start month)
+    const fyStartYear = today.getMonth() + 1 < 4 ? today.getFullYear() - 1 : today.getFullYear();
+    const yyyymmFYStart = `${fyStartYear}04`;
+  
+  
+  
+
   const [units, setUnits] = useState([]);
   const [selectedUnits, setSelectedUnits] = useState([]);
   const [technoParameters, setTechnoParameters] = useState([]);
   const [filteredMetrics, setFilteredMetrics] = useState([]);
   const [selectedMetrics, setSelectedMetrics] = useState([]);
-  const [yearmonthsRange, setYearmonthsRange] = useState(["202404", "202411"]);
+  const [yearmonthsRange, setYearmonthsRange] = useState([yyyymmFYStart, yyyymmYesterday]);
   const [fyYearRange, setFyYearRange] = useState(["2023-24", "2024-25"]);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
